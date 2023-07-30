@@ -1,0 +1,157 @@
+.container {
+    width: 461px;
+    margin: 0 auto;
+}
+
+#map {
+    height: 500px;
+    width: 100%;
+}
+
+.portada {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../images/img-inicio.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 274px;
+
+}
+
+.fecha {
+    display: flex;
+    align-items: center;
+    width: 242px;
+    justify-content: space-around;
+}
+
+.mes {
+    width: 189px;
+    color: #F6F0E9;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: Libre Baskerville;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.6px;
+}
+
+.dia {
+    width: 89px;
+    color: #F6F0E9;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: Libre Baskerville;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.2px;
+}
+
+.anio {
+    width: 51px;
+}
+
+.nos-casamos {
+    height: 410px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nos-casamos p {
+    color: #8B965D;
+    text-align: center;
+    font-variant-numeric: ordinal;
+    font-family: Libre Baskerville;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.945px;
+}
+
+.nos-casamos h1 {
+    color: #4D3107;
+    text-align: center;
+    font-variant-numeric: ordinal;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.26px;
+}
+
+.nos-casamos h2 {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 371;
+    line-height: normal;
+    letter-spacing: -0.12px;
+    text-transform: uppercase;
+}
+
+#cuenta-regresiva {
+    display: flex;
+    justify-content: center;
+}
+
+.simply-section {
+    background-color: #d0d4c1;
+    width: 80px;
+    height: 40px;
+    margin: 0 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.simply-amount {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #8B965D;
+    text-align: center;
+    font-variant-numeric: ordinal;
+    font-family: Montserrat;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.945px;
+}
+
+.simply-word {
+    color: #8B965D;
+    text-align: center;
+    font-variant-numeric: ordinal;
+    font-family: Montserrat;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.945px;
+}
+
+.villa-leyva {
+    display: flex;
+}
+
+.villa-leyva video {}
+
+.video-villa {
+    width: 208px;
+    height: 289px;
+}
+
+.texto {}
