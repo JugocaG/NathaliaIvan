@@ -2,13 +2,8 @@
 
 
 .container {
-    width: auto;
-    margin: auto;
-}
-
-#map {
-    height: 500px;
     width: 100%;
+    margin: auto;
 }
 
 .portada {
@@ -64,6 +59,10 @@
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+    background-image: url(../images/fondo-casamos.png);
+    background-position: 50% 50%;
+    background-repeat: repeat-y;
+    background-size: cover;
 }
 
 .nos-casamos p {
@@ -148,13 +147,202 @@
 
 .villa-leyva {
     display: flex;
+    margin: 0 10px;
 }
 
-.villa-leyva video {}
-
-.video-villa {
+.villa-leyva video {
     width: 208px;
     height: 289px;
+    position: relative;
+    max-height: 50vh;
+    /* si quieres que ocupe la mitad de la pantalla, sino coloca px. */
+    overflow: hidden;
 }
 
-.texto {}
+.video-villa {
+    width: 150px;
+    height: 1000px;
+}
+
+.ceremonia-recepcion {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../images/fondo-generico.png);
+    background-repeat: repeat-y;
+    background-size: contain;
+}
+
+.ceremonia-svg {
+    width: 100%;
+    max-width: 100%;
+}
+
+
+.ceremonia-recepcion h1 {
+    color: #8B965D;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 16.32px;
+    opacity: 0.3400000035762787;
+}
+
+.ceremonia-img {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.ceremonia-img img {
+    width: 50%;
+    max-width: 100%;
+    margin-bottom: 32px;
+}
+
+.texto-ceremonia {
+    position: absolute;
+    z-index: 0;
+}
+
+.fondo-ceremonia {
+
+    z-index: 1;
+}
+
+.texto-fondo {
+    width: auto;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 78px;
+    margin-bottom: 47px;
+}
+
+.texto-pequeno {
+    color: #4D3107;
+    font-variant-numeric: ordinal;
+    font-family: Literata;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.765px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.texto-grande {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #4D3107;
+    text-align: center;
+    font-variant-numeric: ordinal;
+    font-family: Literata;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3.64px;
+}
+
+#map {
+    margin-top: 20px;
+    border-style: groove;
+    border-radius: 10px;
+    border-color: #d0d4c1;
+    height: 400px;
+    width: 80%;
+}
+
+#form {
+    background-image: url(../images/fondo-generico.png);
+    background-repeat: repeat-y;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form form {
+    display: flex;
+    flex-direction: column;
+}
+
+#form h1 {
+    margin-top: 64px;
+    color: #8B965D;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 582;
+    line-height: normal;
+    letter-spacing: 2.24px;
+    text-transform: uppercase;
+}
+
+#form p {
+    color: #4D3107;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 371;
+    line-height: normal;
+    letter-spacing: -0.12px;
+    text-transform: uppercase;
+}
+
+#form form [type="submit"] {
+    color: #4D3107;
+    text-align: center;
+    font-variant-numeric: ordinal;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.85px;
+    border-radius: 2px;
+    border-style: none;
+    background: #8B965D;
+    width: 94px;
+    height: 25px;
+    margin: auto;
+    margin-top: 14px;
+    margin-bottom: 53px;
+
+}
+
+#form [type="text"] {
+    border-radius: 2px;
+    border-style: none;
+    background: rgba(139, 150, 93, 0.54);
+    width: 261px;
+    height: 19px;
+    margin-top: 8px;
+}
+
+#form form ::placeholder {
+    color: #4D3107;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 371;
+    line-height: normal;
+    letter-spacing: -0.12px;
+    text-transform: uppercase;
+}
+
+#form #mensaje {
+    width: 261px;
+    height: 52px;
+}
