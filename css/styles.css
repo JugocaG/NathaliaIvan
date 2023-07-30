@@ -1,6 +1,9 @@
+@media screen and (min-width: 400px) {}
+
+
 .container {
-    width: 461px;
-    margin: 0 auto;
+    width: auto;
+    margin: auto;
 }
 
 #map {
@@ -108,7 +111,7 @@
     background-color: #d0d4c1;
     width: 80px;
     height: 40px;
-    margin: 0 10px;
+    margin: 0 5px;
     border-radius: 5px;
     display: flex;
     align-items: center;
