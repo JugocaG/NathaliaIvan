@@ -108,6 +108,7 @@
 #cuenta-regresiva {
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 .simply-section {
@@ -149,25 +150,65 @@
     letter-spacing: 0.945px;
 }
 
+.separador {
+    width: 100%;
+}
+
+/* VILLA DE LEYVA */
+
+.contenedor-villa-leyva {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.separador-abajo {
+    align-self: flex-end;
+}
+
 .villa-leyva {
     display: flex;
-    margin: 0 10px;
+    justify-content: space-between;
+    background-image: url(../images/fondo-generico.png), url(../images/fondo-plantas.png);
+    background-repeat: repeat-y, no-repeat;
+    background-position: center, 0% 0%;
+    background-size: contain;
+}
+
+.tiulo-villa-leyva {
+    margin-top: 45px;
 }
 
 .villa-leyva video {
-    width: 208px;
-    height: 289px;
-    position: relative;
-    max-height: 50vh;
-    /* si quieres que ocupe la mitad de la pantalla, sino coloca px. */
-    overflow: hidden;
+    align-self: flex-end;
+    width: 35%;
+
 }
 
-.video-villa {
-    width: 150px;
-    height: 1000px;
+.texto {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 65%;
 }
 
+.villa-leyva p {
+    font-variant-numeric: ordinal;
+    font-family: Libre Baskerville;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 138%;
+    letter-spacing: 0.45px;
+    margin-left: 60px;
+    margin-right: 23px;
+}
+
+/* TIME LINE */
+
+
+/* CEREMONIA RECEPCION */
 .ceremonia-recepcion {
     width: 100%;
     max-width: 100%;
