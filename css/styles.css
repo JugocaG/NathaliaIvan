@@ -193,6 +193,10 @@
     width: 65%;
 }
 
+.texto-justificado {
+    text-align: justify;
+}
+
 .villa-leyva p {
     font-variant-numeric: ordinal;
     font-family: Libre Baskerville;
@@ -771,7 +775,7 @@
     letter-spacing: 1.1px;
 }
 
-a {
+.link-musica {
     color: #4D3107;
     text-align: center;
     font-family: Montserrat;
