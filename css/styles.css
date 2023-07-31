@@ -326,8 +326,6 @@
     font-size: 32px;
     font-weight: 700;
     line-height: normal;
-
-
 }
 
 .texto-espaciado {
@@ -363,6 +361,12 @@
     background-image: url(../images/fondo-generico.png);
     background-size: 100%;
     background-repeat: repeat-y;
+    padding-bottom: 120px;
+    padding-top: 80px;
+}
+
+.texto-hombres {
+    margin-top: 63px;
 }
 
 .titulo-dress-code {
@@ -447,8 +451,141 @@
     flex-wrap: wrap;
 }
 
+/* HOSPEDAJE */
 
+.hospedaje {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e7d4;
+}
 
+.titulo-hospedaje {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hospedaje-texto {
+    position: absolute;
+}
+
+.sin-espacio {
+    color: #4D3107;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Montserrat;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 21.7px;
+}
+
+.titulo-hospedaje p {
+    color: #4D3107;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Montserrat;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    opacity: 0.10000000149011612;
+}
+
+.hospedaje img {
+    width: 20%;
+}
+
+.hospedaje h1 {
+    color: #4D3107;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.34px;
+    text-transform: uppercase;
+}
+
+.imagenes-hoteles {
+    margin-top: 11px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.texto-final-hospedaje {
+    margin-bottom: 30px;
+}
+
+/* RECOMENDACIONES */
+
+.recomendaciones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 41px;
+    background-image: url(../images/fondo-generico.png);
+    background-size: 100%;
+    background-repeat: repeat-y;
+}
+
+.texto-niños {
+    margin: 0 5px;
+}
+
+.separador-final {
+    align-self: flex-end;
+}
+
+.separador-inicial {
+    align-self: flex-start;
+}
+
+.contenedor-recomendaciones {
+    width: 50%;
+    height: 238px;
+    background-color: #f0ebe5;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0px;
+}
+
+.recomendaciones h1 {
+    color: #4D3107;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.recomendaciones p {
+    color: #4D3107;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.28px;
+    text-transform: uppercase;
+    margin: 0px 10px;
+}
+
+.peluqueria {
+    width: 69px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: white;
+}
 
 /* CONFIRMAR ASISTENCIA */
 
