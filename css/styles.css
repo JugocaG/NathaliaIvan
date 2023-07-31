@@ -674,3 +674,130 @@
     width: 261px;
     height: 52px;
 }
+
+/* REGALOS */
+
+.regalos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-image: url(../images/fondo-generico.png);
+    background-size: 100%;
+    background-repeat: repeat-y;
+}
+
+.regalo-portada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f5f0;
+    background-image: url(../images/fondo-generico.png);
+    background-size: 100%;
+    background-repeat: repeat-y;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-bottom: 63px;
+}
+
+.regalo-portada p {
+    color: #4D3107;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.34px;
+    text-transform: uppercase;
+    margin: 0 9px;
+    margin-top: 15px;
+}
+
+.imagen-principal {
+    width: 100%;
+    max-width: 100%;
+    opacity: 0.9100000262260437;
+}
+
+.texto-imagen-principal {
+    color: #4D3107;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.imagen-principal-texto {
+    position: relative;
+}
+
+.imagen-principal-texto>.texto-imagen-principal {
+    position: absolute;
+    top: 11%;
+    right: 5%;
+}
+
+.imagenes-regalos img {
+    width: 30%;
+    margin: 1px;
+}
+
+.imagenes-regalos {
+    margin-top: 54px;
+    margin-bottom: 76px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.img-black {
+    filter: grayscale(100%);
+}
+
+.baila-texto {
+    color: #4D3107;
+    text-align: center;
+    font-family: Libre Baskerville;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.1px;
+}
+
+a {
+    color: #4D3107;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.875px;
+    text-decoration-line: underline;
+    border-radius: 15px;
+    background: #E2E4D1;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-bottom: 107px;
+}
+
+.regalos>.hoja-regalo {
+    position: absolute;
+    bottom: 0;
+    right: 79px;
+}
+
+.regalos>.nat-iva {
+    position: absolute;
+    bottom: 7px;
+    right: 12px;
+}
